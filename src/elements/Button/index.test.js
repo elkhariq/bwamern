@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import Button from './index';
 
+// Ujicoba Komponen Button
 
 test("Should not alloed click button if isDisabled is present", () => {
     const { container } = render(<Button isDisabled></Button>);
